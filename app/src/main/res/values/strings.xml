@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">English Dictionary</string>
+    <string name="opened">opened</string>
+    <string name="closed">closed</string>
+    <string name="none">None !</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="recentString">Recent Words</string>
+    <string name="FavoriteString">Favourite Words</string>
+</resources>

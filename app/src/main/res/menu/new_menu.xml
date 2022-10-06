@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/navfavourite"
+            android:icon="@drawable/ic_baseline_favorite_24"
+            android:title="Favourite" />
+        <item
+            android:id="@+id/navrecent"
+            android:icon="@drawable/ic_baseline_settings_backup_restore_24"
+            android:title="Recent" />
+
+    </group>
+    <item android:title="Support">
+        <menu>
+            <item
+                android:id="@+id/aboutUs"
+                android:icon="@drawable/ic_baseline_info_24"
+                android:title="About us" />
+            <item
+                android:id="@+id/feedBack"
+                android:icon="@drawable/ic_baseline_feedback_24"
+                android:title="Feed Back" />
+
+
+        </menu>
+
+
+    </item>
+
+</menu>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#E0EAE5"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="3dp"
+
+    android:layout_marginHorizontal="14dp"
+    android:layout_marginVertical="12dp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="8dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/defTextView"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Definition"
+            android:textSize="20dp"
+            android:fontFamily="@font/basic"
+            android:letterSpacing="0.03"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold|italic"
+            android:textColor="#B284598E"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/RealDefTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nothing to Show !"
+            android:textSize="16dp"
+
+            android:textColor="#000000"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/examTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/basic"
+            android:letterSpacing="0.03"
+            android:text="Example"
+            android:textSize="20dp"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold|italic"
+            android:textColor="#B284598E"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/RealexamTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nothing to Show !"
+            android:textSize="16dp"
+            android:layout_marginBottom="5dp"
+
+            android:textColor="#000000"/>
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>
